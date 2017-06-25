@@ -16,6 +16,7 @@ function btcPriceUsdS () {
     .flatten()
     .filter(u => u['reason'] === 'trade')
     .map(u => parseFloat(u['price']))
+    .skipDuplicates()
 }
 
 module.exports = btcPriceUsdS
