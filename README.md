@@ -5,7 +5,7 @@ a [kefir stream](https://rpominov.github.io/kefir/) of your Poloniex account's v
 ## install
 
 ```
-git clone 
+git clone git@github.com:elsehow/poloniex-value-estimator.git
 cd poloniex-value-estimator
 npm i
 ```
